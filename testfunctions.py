@@ -23,7 +23,3 @@ def calculate_l2_error(dataset, reference_img, l2_pre_registration, l2_post_regi
 
     return l2_pre_registration, l2_post_registration
 
-l2_errors_pre_registration_normal, l2_errors_post_registration_normal = calculate_l2_error(normal_ds, reference_img, 
-                                                                                           l2_errors_pre_registration_normal,
-                                                                                           l2_errors_post_registration_normal,
-                                                                                          50)
